@@ -313,8 +313,13 @@
 <input type="checkbox">
 <label>Make sure to save the backup folders in the WD file path server.</label><br>
 <br><br>
-<button onClick="window.location.reload();">Reset</done>
+<button onClick="reset()">Reset</done>
 
-</body>
+    <script>
+        function reset() {
+            window.location.reload();
+            alert( 'Reset Successfully!' );
+        }
+    </script>
 </body>
 </html>
